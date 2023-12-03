@@ -83,7 +83,7 @@ function LSTM() {
     return (
         <div className="App">
             <video ref={webcamRef}/>
-            <p>{emotion}</p>
+            <p>Recognized emotion: {emotion}</p>
         </div>
     );
 }
